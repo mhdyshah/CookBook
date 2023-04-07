@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # CookBook
 
 CookBook is A website that created by Laravel/Livewire Frameworks and with nice ui/ux and used many technologies in it.
