@@ -1,0 +1,113 @@
+.search_box {
+    position: relative;
+    margin: 0px;
+}
+
+.search_btn {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.search_btn:hover {
+    text-shadow: 0 0 5px black;
+}
+
+#FAQs {
+    text-decoration: none;
+    color: #212529;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.my-font {
+    font-family: customFontName;
+    src: url(assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+
+.hover_shadow {
+    transition: all 200ms linear;
+}
+.hover_shadow:hover {
+    box-shadow: 0 0 5px rgb(100, 98, 98);
+}
+
+.hover_up {
+    transition: all 100ms linear;
+}
+.hover_up:hover {
+    transform: translateY(-5px);
+}
+
+/* .my-header {
+    position: sticky;
+    top: 0;
+} */
+
+.cursor_pointer_text_shadow {
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.cursor_pointer_text_shadow:hover {
+    text-shadow: 0 0 5px rgb(151, 123, 13);
+}
+
+.over_hidden {
+    overflow: hidden !important;
+}
+
+.h_10 {
+    height: 14rem;
+}
+
+.rounded_5 {
+    border-radius: 5rem !important;
+}
+
+.h_85px {
+    height: 85px !important;
+    overflow: hidden;
+}
+
+#recipetitle {
+    font-family: "Rammetto One", cursive;
+}
+
+#mydesc {
+    font-family: customFontName;
+    src: url(assets/fonts/Domine/static/Domine-SemiBold.ttf);
+}
+
+.text_container img {
+    max-width: 50%;
+    max-height: 30vh;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+}
+.text_container p {
+    text-align: justify;
+}
+.text_container h2 {
+    text-align: right;
+}
+
+#mymat {
+    font-family: customFontName;
+    src: url(assets/fonts/Alkatra/Alkatra-SemiBold.ttf);
+}
+
+.my_mat {
+    cursor: grabbing;
+}
+.my_mat:hover {
+    color: darkcyan;
+}
+
+#usrimg {
+    overflow: hidden;
+}
